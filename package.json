@@ -1,0 +1,39 @@
+{
+  "name": "lakeclean-spa",
+  "version": "1.0.0",
+  "description": "Lake Property Cleaning Coordination Platform - Single Page Application",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -c-1",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "echo 'CSS already concatenated in components.css'",
+    "build:js": "echo 'JS files ready for production'",
+    "lint": "npx eslint js/**/*.js",
+    "format": "npx prettier --write '**/*.{js,css,html}'",
+    "test": "echo 'Tests not yet implemented'",
+    "deploy": "npm run build && echo 'Ready for deployment'"
+  },
+  "keywords": [
+    "property-management",
+    "cleaning-coordination",
+    "rental-properties",
+    "spa",
+    "javascript"
+  ],
+  "author": "LakeClean Team",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/lakeclean-spa.git"
+  },
+  "homepage": "https://lakeclean.com",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
